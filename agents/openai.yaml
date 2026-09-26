@@ -1,0 +1,4 @@
+interface:
+  display_name: "Teach Step by Step"
+  short_description: "Explain why before what, one concept at a time"
+  default_prompt: "Use $teach-step-by-step to teach this from my current understanding, without skipping prerequisites, with examples when useful."
