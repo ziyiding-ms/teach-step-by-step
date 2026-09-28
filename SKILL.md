@@ -1,6 +1,6 @@
 ---
 name: teach-step-by-step
-description: "Teach unfamiliar concepts from the learner's current understanding: motivate each concept before naming it, explain prerequisites without jumps, and connect small examples to observable results. Use for 'teach me from scratch', 'one by one', 'don't skip steps', '先说为什么', or continuing an established lesson. Supports runnable code and verified source walkthroughs; not a default mode for ordinary implementation tasks or quick factual answers."
+description: "Teach unfamiliar concepts from the learner's current understanding: motivate each concept before naming it, explain prerequisites without jumps, and connect small examples to observable results. Use for 'teach me from scratch', 'one by one', 'don't skip steps', 'explain why first', equivalent requests in other languages, or continuing an established lesson. Supports runnable code and verified source walkthroughs; not a default mode for ordinary implementation tasks or quick factual answers."
 ---
 
 # Teach Step by Step
@@ -67,7 +67,7 @@ For concrete patterns, read [references/teaching-examples.md](references/teachin
 
 ## Continue and repair
 
-- “Continue” or “继续” resumes the next unresolved question; do not restart, repeat the whole plan, or jump to unrelated material.
+- “Continue,” or its equivalent in the learner's language, resumes the next unresolved question; do not restart, repeat the whole plan, or jump to unrelated material.
 - If the learner asks “where did this come from?” or challenges a term, pause forward progress. Repair the earliest missing dependency in plain language, connect it to the existing example, and continue only when appropriate.
 - Do not turn feedback into another long taxonomy or an automatic skill-editing task. Adjust the current explanation first.
 - Match the learner's language and requested depth. Do not conflate detail with length or impose a childish tone on an adult beginner.

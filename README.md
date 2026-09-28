@@ -1,8 +1,8 @@
-# Teach Step by Step · 不跳步教学
+# Teach Step by Step
 
 An Agent Skill for explanations that introduce **why a concept is needed before what it is**, build on the learner's actual knowledge, and connect small examples to observable results.
 
-让每一个新概念都有来由：先说明当前遇到的问题，再介绍解决它的机制；例子和代码要解释输入、动作、结果与适用范围。“继续”接着上次尚未解决的问题讲，不重启课程、不突然堆术语。
+Give every new concept a reason: explain the current problem before introducing the mechanism that solves it. For examples and code, explain the inputs, actions, results, and limits. When the learner says “continue,” resume the unresolved question without restarting the lesson or introducing a pile of unexplained terms.
 
 ## What it changes
 
@@ -25,12 +25,12 @@ I know Python but not networking. Explain why each concept is needed,
 one step at a time, and explain what any code example will do.
 ```
 
-中文示例：
+General prompt:
 
 ```text
-用 $teach-step-by-step 从我目前的理解开始讲，不要跳步。
-先说为什么需要这个概念，再解释它是什么。
-给代码前，先说代码会做什么；我说“继续”时再接着讲。
+Use $teach-step-by-step to build on my current understanding without skipping steps.
+Explain why a concept is needed before explaining what it is.
+Before showing code, explain what it will do. Continue when I say “continue.”
 ```
 
 For a complete tutorial, request it explicitly; the skill will preserve the causal order without requiring a new turn for every step.

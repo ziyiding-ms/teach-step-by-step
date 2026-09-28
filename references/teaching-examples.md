@@ -98,7 +98,7 @@ Do not quote an entire function just to prove it was found. Do not claim a macOS
 
 Conversation state: the learner understands bytes, a local socket, and an IP address. The outstanding question is how traffic arriving at a machine reaches the intended service.
 
-For “继续,” motivate service selection on the same machine before introducing a port. Do not re-teach UTF-8, jump to congestion control, or demand a quiz answer before continuing.
+For “continue,” or its equivalent in the learner's language, motivate service selection on the same machine before introducing a port. Do not re-teach UTF-8, jump to congestion control, or demand a quiz answer before continuing.
 
 For “Give the whole explanation in one answer,” expand the number of causal steps while preserving dependency order. “One by one” must not become a reason to leave a requested complete tutorial unfinished.
 
